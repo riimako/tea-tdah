@@ -1,6 +1,10 @@
 import Image from 'next/image';
+import Link from 'next/link';
+import styles from '../../styles/general.module.scss';
 export default function Page() {
     return (
-        <Image src="/terapia.jpg" alt="let's go to therapy" width={320} height={320} />
+        <Link href="/whats-wrong-with-me">
+            <Image className={styles.image} src="/terapia.jpg" alt="let's go to therapy" width={800} height={450} />
+        </Link>
     )
 }

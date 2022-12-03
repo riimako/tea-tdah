@@ -17,7 +17,7 @@ export default function Page() {
         <p>La importancia del autoconocimiento</p>
       </Link>
 
-      <Link href="/who-i-am" className={styles.card}>
+      <Link href="/my-superpower" className={styles.card}>
         <h2>¿Cómo aprovechar tus singularidades?</h2>
         <p>Mi superpoder vs mi kryptonita</p>
       </Link>
