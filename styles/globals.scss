@@ -1,4 +1,4 @@
-@import "./colors";
+@import './colors';
 @font-face {
   font-family: montserrat;
   src: url(montserrat.ttf);
@@ -23,8 +23,8 @@ a {
 footer {
   display: flex;
   flex: 1;
-  padding: 2rem 2rem;
-  border-top: 1px solid #eaeaea;
+  padding: 1rem 1rem;
+  border-top: 1px solid $light;
   justify-content: center;
   align-items: center;
   a {
@@ -34,6 +34,24 @@ footer {
     flex-grow: 1;
     img {
       height: auto;
+    }
+  }
+}
+header {
+  display: flex;
+  flex: 1;
+  border-bottom: 1px solid $light;
+  justify-content: center;
+  align-items: center;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    &:focus,
+    &:hover,
+    &:active {
+      color: $secondary;
     }
   }
 }
