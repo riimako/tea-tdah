@@ -1,21 +1,34 @@
 export default function Page() {
+return (
+<>
+      <h1>
+            ¿Por qué el té no es para personas con tdah?
+      </h1>
+      <h2>Si naciste incendiario, no mueras bombero</h2>
 
-  return (<>
-      <p>si naciste incendiario, no mueras bombero</p>
-       <p>Por qué el té no es para personas con tdah?</p>
-       <p>si piensas que cada decisión debe ser la correcta, y te culpas de ello,
-quizás estas en modo fight or flight
+      <ul>
 
-la opinion de los demás no es la tuya
-y no me corresponde
+            <li> Modo supervivencia
+                  <ul style={{ display: 'none' }}>
+                        <li>Falta de concentración, aparece la niebla mental y es más difícil terminar una actividad.
+                        </li><li>Una visión negativa de sí mismos, sentimientos de indefensión, culpa o vergüenza.
+                        </li><li>Cambios en la memoria: cuesta más recordar las cosas que han sucedido a lo largo del día.
+                        </li><li>Fatiga física y mental. </li><li>
+                              Reacciones más emocionales de lo habitual, ataques de ira o tristeza.
+                              Descuidar las necesidades básicas como lavarse los dientes, hacer ejercicio o cambiar las sábanas.
+                              Impulsividad, como por ejemplo gastar en exceso, comer más, o hacer cosas fuera de lo acostumbrado.
+                              Problemas con las relaciones y tendencia a involucrarse en relaciones poco saludables.
+                        </li><li>Alteraciones del sueño e hipervigilancia, estar siempre en alerta.</li>
+                        <li>si piensas que cada decisión debe ser la correcta, y te culpas de ello</li>
+                  </ul>
+            </li>
+            <li>La opinión de los demás no es la tuya, y no me corresponde</li>
 
-los problemas son como hacienda, 
-por mucho que te alejes de ellos
-siempre te acaban encontrando
+            <li>Los problemas son como hacienda, por mucho que te alejes de ellos, siempre te acaban encontrando</li>
+      </ul>
 
-y conocerse a si mismo es como ir en trasnporte publico a extremadura
-puede ser eterno, puede que te pierdas y tengas que esperar
-pero las vistas son bonitas
-</p>
-      </>)
+
+      <p> Conocerse a si mismo es como ir en autobús, puede ser eterno, puede que te pierdas y tengas que esperar pero las vistas son bonitas
+      </p>
+</>)
 }
