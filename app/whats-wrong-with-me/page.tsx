@@ -3,9 +3,6 @@ import Link from "next/link";
 export default function Page() {
 
   return (<>
-    <Link href="/whats-wrong-with-me/adhd">
-      <h2>Mi día a día</h2>
-    </Link>
     <Link href="/whats-wrong-with-me/anxiety-vs-stress">
       <h2>Ansiedad o estrés</h2>
     </Link>

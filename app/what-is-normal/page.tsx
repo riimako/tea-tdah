@@ -1,6 +1,6 @@
 export default function Page() {
     return (<>
-    <p>que tienes la cabeza en las nubes?
+    <p>Sensibilidadque tienes la cabeza en las nubes?
 que eres muy sensible?
 necesitas focus?
 te apasionas o te enfadas demasiado rapido?
@@ -85,6 +85,10 @@ En psicología, resumen desde el Centro de Intervención Psicológica Integral y
 
 "Desde la Psicología se entiende la diferencia entre normalidad y anormalidad como un continuo, y no como una separación inequívoca".</p>
 <p></p>
+
+<q>"si no estás dispuesta a actuar por ello
+por que cuesta o porque no quieres,
+debes dejar de darle importancia"</q>
     </>
     )
 }
