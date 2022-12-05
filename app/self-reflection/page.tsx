@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Page() {
 return (
 <>
@@ -23,12 +25,13 @@ return (
                   </ul>
             </li>
             <li>La opinión de los demás no es la tuya, y no me corresponde</li>
-
             <li>Los problemas son como hacienda, por mucho que te alejes de ellos, siempre te acaban encontrando</li>
-      </ul>
+            </ul>
+            <Link href='/self-reflection/self-knowledge'>
+                  <h3>¿Te conoces a ti mismo?</h3>
+            </Link> 
 
 
-      <p> Conocerse a si mismo es como ir en autobús, puede ser eterno, puede que te pierdas y tengas que esperar pero las vistas son bonitas
-      </p>
+      
 </>)
 }
