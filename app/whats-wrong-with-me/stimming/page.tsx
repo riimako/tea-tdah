@@ -1,34 +1,26 @@
-import Image from 'next/image';
-import styles from '../../styles/general.module.scss';
 export default function Page() {
-    return (
-    <>
-        STIMMING --> AUTOESTIMULACIÓN
-        REPETICIÓN DE MOVIMIENTOS FISICOS O DE OBJETOS
-        AUTISTAS, TDAH,
-        
-        ES UNA RESPUESTA A LA HIPERSENSIBILIDAD YA QUE
-        ASÍ SE BLOQUEAN LOS ESTIMULOS EXTERNOS
-        
-        EJEMPLOS
-        COLOR WHILE TALKING
-        SINGING WHILE DOING THINGS
-        SHAKING YOUR LEG WHILE READING
-        CHASQUEAR LOS DEDOS
-        BATERIA CON OBJETOS
-        CALCULAR CON LOS DEDOS
-        
-        ESTO MUCHAS VECES NOS PUEDE LLEVAR A LA
-        AUTOLESIÓN
-        HERIDAS EN LOS DEDOS, (SKIN PICKING)
-        RASGARSE, ARAÑARSE, APRETAR LOS PUÑOS PARA HACERSE DAÑO CON LAS UÑAS
-        (DESORDENES ALIMENTICIOS Y ABUSO SUSTANCIAS NO ENTRAN AQUI)
-        SU PROPOSITO NO ES EL SUICIDIO
-        APARECE EN MUCHOS TRASTORNOS COMO T LIMITE PERSONALIDAD
-        DEPRESION, ANSIEDAD, ESTRES, ESQUIZOFRENIA
-        
-        ALIVIA SENSACIONES INTENSAS (ESTRATEGIA DE AFRONTAMIENTO)
-        PASA EN OTROS ANIMALES COMO AVES Y MONOS</p><p>siempre te han dicho que hablas mucho?
+    return (<>
+        <h3>¿Qué es la autoestimulación?</h3>
+        <p>Es la repetición de movimientos, físicos o de objetos.</p>
+        <p>Es una respuesta a la hipersensibilidad, ya que así es mucho más fácil bloquear estímulos externos.</p>
+
+        <p>Pasa e muchas afecciones neurológicas o psicológicas, e incluso en personas sin ningún tipo de afección.</p>
+        <ul><li>
+            Colorear/escribir</li>
+            <li>
+                Cantar o bailar</li>
+            <li>
+                Mover las piernas</li>
+            <li>
+                Chasquaer los dedos, o tocar la batería en el aire</li>
+            <li>Cálculo con los dedos</li>
+        </ul>
+
+        <p>Esto nos puede llevar muy fácil a la autolesión</p>
+        <ul><li>Heridas en los dedos</li>
+            <li>Arañarse, apretar los puños</li></ul>
+        <p>Los desordenes alimentarios y abuso de sustancias no entran aquí</p>
+        <p>Su próposito no es el suicidio, e incluso es normal que ocurra en otros animales como aves y monos</p>
 
 
     </>
